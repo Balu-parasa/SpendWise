@@ -187,6 +187,7 @@ The application is structured for independent cloud hosting:
 - **Backend**: Containerized / Java runtime service hosted on [Render](https://render.com) (listening on dynamic `PORT`)
 - **Database**: Cloud PostgreSQL hosted on [Neon](https://neon.tech)
 
+- **Project Live Link** : https://spend-wise-five-xi.vercel.app/<br><br>
 *(Note: Production deployment is currently being prepared and pending final domain configuration.)*
 
 ---
