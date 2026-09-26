@@ -17,37 +17,7 @@ export const DashboardQuickActions: React.FC = () => {
   return (
     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: '1rem', marginBottom: '1.5rem' }}>
       {actions.map(action => (
-        <button
-          key={action.id}
-          onClick={() => triggerAction(action.id)}
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            gap: '0.5rem',
-            padding: '0.875rem 1rem',
-            backgroundColor: 'var(--color-surface)',
-            border: '1px solid var(--color-border)',
-            borderRadius: 'var(--radius-lg)',
-            color: 'var(--color-text-primary)',
-            fontSize: '13px',
-            fontWeight: 'var(--font-weight-medium)',
-            cursor: 'pointer',
-            boxShadow: 'var(--shadow-sm)',
-            transition: 'all var(--transition-fast)'
-          }}
-          onMouseOver={(e) => {
-            e.currentTarget.style.borderColor = action.color;
-            e.currentTarget.style.color = action.color;
-          }}
-          onMouseOut={(e) => {
-            e.currentTarget.style.borderColor = 'var(--color-border)';
-            e.currentTarget.style.color = 'var(--color-text-primary)';
-          }}
-        >
-          {action.icon}
-          {action.label}
-        </button>
+
       ))}
     </div>
   );
