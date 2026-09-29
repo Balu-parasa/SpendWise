@@ -4,15 +4,7 @@ SpendWise is a full-stack personal finance and subscription management platform 
 
 ---
 
-## Key Features
 
-* **Authentication & Security:** Stateless JWT authentication (access & refresh tokens) with BCrypt password hashing.
-* **Expense Management:** Track transactions with custom categories, payment methods, timestamps, and notes.
-* **Budget Monitoring:** Category-based monthly spending limits paired with dynamic status alerts (**Healthy**, **Warning**, **Exceeded**).
-* **Subscription Tracking:** Monitor recurring billing cycles, calculate normalized monthly commitments, and receive renewal alerts.
-* **Interactive Analytics:** Real-time data visualization covering spending trends, categorical splits, and actionable financial insights.
-* **Dynamic Theming:** Built-in theme engine supporting Light, Dark, and Glass UI modes.
-* **Fully Responsive:** Fluid layouts designed for mobile, tablet, and desktop viewports.
 
 ---
 
