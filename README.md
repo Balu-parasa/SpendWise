@@ -110,6 +110,19 @@ The client dashboard initializes on `http://localhost:5173`.
 
 ---
 
+## Container Deployment
+
+Run the complete application stack using Docker:
+
+```bash
+# Build the Docker image
+docker build -t spendwise:latest .
+
+# Run the container
+docker run -p 8080:8080 --env-file .env spendwise:latest
+```
+
+---
 
 ## Testing
 
