@@ -43,32 +43,6 @@ SpendWise/
 
 ---
 
-## Getting Started
-
-### Prerequisites
-
-* **Java Development Kit (JDK):** Version 21 or later
-* **Node.js:** v18 or later (alongside `npm` or `pnpm`)
-* **PostgreSQL:** Local instance or cloud database URL (e.g., Neon)
-* **Docker:** (Optional) for containerized deployment
-
-### Environment Setup
-
-Create a `.env` file in the root directory by referencing `.env.example`:
-
-```env
-# Database
-DATABASE_URL=jdbc:postgresql://<HOST>:<PORT>/<DATABASE>
-DATABASE_USERNAME=<USERNAME>
-DATABASE_PASSWORD=<PASSWORD>
-
-# JWT Configuration
-JWT_SECRET=<YOUR_BASE64_SECRET_KEY>
-JWT_EXPIRATION_MS=86400000
-JWT_REFRESH_EXPIRATION_MS=604800000
-```
-
----
 
 ## Running Locally
 
