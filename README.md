@@ -123,12 +123,3 @@ docker run -p 8080:8080 --env-file .env spendwise:latest
 ```
 
 ---
-
-## Testing
-
-Execute the automated test suite:
-
-```bash
-# Backend unit & integration tests
-./mvnw test
-```
