@@ -98,4 +98,38 @@ Alternatively, run them in separate terminals:
 # Windows
 .\mvnw.cmd spring-boot:run
 ```
+The backend API initializes on `http://localhost:8080`.
+
+**2. Frontend**
+```bash
+cd frontend
+npm install
+npm run dev
+```
+The client dashboard initializes on `http://localhost:5173`.
+
+---
+
+## Container Deployment
+
+Run the complete application stack using Docker:
+
+```bash
+# Build the Docker image
+docker build -t spendwise:latest .
+
+# Run the container
+docker run -p 8080:8080 --env-file .env spendwise:latest
+```
+
+---
+## Testing
+
+Execute the automated test suite:
+
+```bash
+# Backend unit & integration tests
+./mvnw test
+```
+
 
